@@ -1,0 +1,50 @@
+.menu {
+  width: 70px;
+  background-color: #1A1731;
+  height: 100vh;
+  position: fixed;
+  border-image-source: linear-gradient(to left, #00E1FF, #117EFF);
+  border-image-slice: 1;
+  border-width: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 5px solid;
+  border-bottom: 5px solid;
+}
+
+.menu .logo {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.menu .logo img {
+  width: 50px;
+  margin: 0 auto;
+}
+
+.menu ul li a img.icon {
+  fill: #FFF;
+  fill-rule: #FFF;
+  width: 22px;
+  height: 22px;
+}
+
+
+.menu ul li {
+  list-style: none;
+  margin: 15px auto;
+}
+
+.menu ul li:last-child {
+  margin-top: 30px;
+
+}
+
+.menu ul li a.link-out {
+  border-top: 2px solid #117EFF;
+  padding-top: 22px;
+}

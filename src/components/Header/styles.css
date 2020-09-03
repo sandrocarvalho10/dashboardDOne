@@ -1,0 +1,112 @@
+header{
+  padding: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  background-color: #FAFBFF;
+  position: fixed;
+  
+  z-index: 999;
+} 
+
+header .header{
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+header .header .account{
+  width: fit-content;
+  position: relative;
+}
+
+header .header .account h2{
+  background-color: #117EFF;
+  border-radius: 50px;
+  padding: 2px 4px;
+  line-height: 1;
+  color: #FFF;
+  font-size: 22px;
+  margin: 0;
+  font-weight: 300;  
+  cursor: pointer;
+}
+
+header .header .block-1,
+header .header .block-2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header .block-1{
+  width: 140px;
+  align-items: unset;
+}
+
+
+header .header .block-1 img{
+  width: 60px;
+  border: 1px solid #f2f2f2; 
+  padding: 5px;
+  border-radius: 4px;
+  background-color: #FFF;
+}
+
+header .header .block-2{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+header .header form .input-group{
+  display: flex;
+  align-items: center;
+}
+header .header form label{
+  border: 1px solid #CCCFDE;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #FFF;
+  border-right: none;
+  border-top-right-radius: 0;
+  height: 35px;
+  border-bottom-right-radius: 0;
+}
+header .header form input{
+  border: 1px solid #CCCFDE;
+  border-radius: 5px;
+  border-left: none;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 5px;
+  height: 35px;
+  font-size: 13px;
+  color: #9196AB;
+  background-color: #FFF;
+  font-family: 'Gotham-Book';
+  width: 260px;
+}
+
+header .header  button{
+  background-color: #117EFF;
+  text-align: center;
+  color: #FFF;
+  /* height: 30px; */
+  padding: 8px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Gotham-Bold';
+  gap: 5px;
+  border-radius: 5px;  
+  transition: 400ms;
+  transition-timing-function: ease-out;
+}
+
+header .header  button:hover{
+ 
+  background: linear-gradient(90deg, #00E1FF, #117EFF )
+}

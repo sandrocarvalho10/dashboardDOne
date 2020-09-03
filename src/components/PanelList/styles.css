@@ -1,0 +1,165 @@
+.panels{
+  display: flex;
+  justify-content: center;
+
+}
+
+.panels .panel{
+  margin-top: 150px;
+  max-width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: baseline;
+  position: relative;
+}
+
+.panels .panel .panel-left{
+  width: 200px;
+}
+
+.panels .panel .panel-left .p-fixed{
+  position: fixed;
+}
+
+.panels .panel .panel-left h3{
+  color: #3E4157;
+  font-size: 16px;
+  font-family: 'Gotham-Bold';
+}
+
+.panels .panel .panel-left ul{
+  list-style: none;
+  padding-top: 10px;
+}
+
+.panels .panel .panel-left ul li{
+  margin: 15px 0;
+}
+
+.panels .panel .panel-left .p-fixed ul li a{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  color: #3E4157;
+  font-size: 13px;
+  font-weight: 400;
+  gap: 10px;
+  
+}
+
+.panels .panel .panel-left ul li a .name-journey{
+  width: 120px;
+  text-align: left;
+  font-family: 'Gotham-Book';
+}
+.panels .panel .panel-left ul li a .name-journey:hover{
+  color: #117EFF;
+}
+
+.panels .panel .panel-left ul li.active a .name-journey{
+  font-family: 'Gotham-Bold';
+  color: #117EFF;
+}
+.panels .panel .panel-left ul li.active a .total{
+  background: #117EFF;
+  color: #FFF;
+  font-family: 'Gotham-Bold';
+}
+
+.panels .panel .panel-left ul li a img{
+  width: 24px;
+}
+
+.panels .panel .panel-left ul li a .total{
+  background: #E4E6F1;
+  border: 1px solid #E4E6F1;
+  padding: 6px 9px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  color: #9196AB;
+  font-family: 'Gotham-Bold';
+  text-align: center;
+}
+
+
+.panels .panel .panel-right{
+  max-width: 900px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.panels .panel .panel-right .lista-info{
+  width: 700px;
+  margin-left: 100px;
+}
+
+.panels .panel .panel-right .lista-info ul{
+  list-style: none;
+
+}
+
+.panels .panel .panel-right .lista-info h4,
+.panels .panel .panel-right .lista-info ul li{
+  display:  flex;
+  /* justify-content: space-between;  */
+  gap: 60px;
+}
+
+.panels .panel .panel-right .lista-info ul li{
+  width: 100%;
+  margin: 10px 0;
+  background-color: #FFF;
+  padding: 8px 20px;
+  font-size: 14px;
+  width: fit-content;
+}
+
+.panels .panel .panel-right .lista-info ul li .name,
+.panels .panel .panel-right .lista-info h4 .name{
+  min-width: 220px;
+  /* margin-left: 20px; */
+}
+
+
+.panels .panel .panel-right .lista-info ul li .name{
+  font-family: 'Gotham-bold';
+  /* margin-left: -40px; */
+}
+
+.panels .panel .panel-right .lista-info ul li span img{
+  width: 22px;
+}
+
+.panels .panel .panel-right .lista-info ul li span{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 100px;
+  margin: 0 auto;
+  /* justify-content: center; */
+}
+
+.panels .panel .panel-right .lista-info ul li span.name{
+  justify-content: start;
+  padding-left: 20px;
+}
+
+.panels .panel .panel-right .lista-info ul li.title-base{
+  font-size: 13px;  
+  font-family: 'Gotham-Book';
+  font-weight: 400;
+  color: #9196AB; 
+  background-color: transparent; 
+}
+
+.panels .panel .panel-right .lista-info ul li.title-base .name{
+  font-family: 'Gotham-Book';
+}
+
+.panels .panel .panel-right .lista-info ul li .status {
+  min-width: 140px;
+}

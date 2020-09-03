@@ -1,0 +1,83 @@
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  background: rgba(0,0,0,0.6);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.overlay .card{
+  width: 350px;
+  background: #FFFFFF;
+  border: 1px solid #E4E6F1;
+  border-radius: 7px;
+  padding: 20px;
+
+}
+
+.overlay .card h3{
+  color: #9196AB;
+  font-size: 13px;
+  font-family: 'Gotham-Bold';
+  margin-bottom: 15px;
+}
+
+.overlay .card form{
+  margin-top: 25px;
+}
+
+.overlay .card form h4{
+  color: #3E4157;
+  font-size: 13px;
+  font-family: 'Gotham-Book';
+}
+
+.overlay .card form h4 strong{
+  font-family: 'Gotham-Bold';
+  color: #000;
+}
+
+.overlay .card form input{
+  margin-top: 8px;
+  width: 100%;
+  padding: 8px;
+  font-size: 15px;
+  border: 1px solid #CCCFDE;
+  border-radius: 5px;
+}
+
+.overlay .card form span{
+  color: #9196AB;
+  font-size: 13px;
+}
+
+.overlay .card form .btn-submit{
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+.overlay .card form .btn-submit .submit{
+  color: #117EFF;
+  border: none;
+  font-family: 'Gotham-Bold';
+  font-size: 15px;
+  background-color: transparent;
+}
+
+.overlay .card form .btn-submit .cancel{
+  color: #9196AB;
+  border: none;
+  font-family: 'Gotham-Bold';
+  font-size: 15px;
+  font-weight: 900;
+  background-color: transparent;
+}
