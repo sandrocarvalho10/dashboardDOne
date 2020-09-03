@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const api = axios.create({ baseURL : 'https://api-d1-test.herokuapp.com/api/'});
+const api = axios.create({ baseURL : process.env.REACT_APP_API_URL});
 
 
 
